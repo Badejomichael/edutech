@@ -1,0 +1,39 @@
+
+.hero-form-text {
+  color: white;
+}
+
+.form-label,
+.footer-formm {
+  color: white;
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #14B8A6, #3B82F6);
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #3B82F6, #14B8A6);
+}
+
+.sub-login-txt {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+@media(max-width: 400px) {
+  .form-cardd {
+    width: 350px !important;
+  }
+}
